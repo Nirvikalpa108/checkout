@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative 'checkout'
 
-RULES = {"A" => 50, "B" => 30, "C" => 20, "D" => 15, "AAA" => 130}
+RULES = {"A" => 50, "B" => 30, "C" => 20, "D" => 15, "AAA" => 130, "BB" => 45}
 
 class TestPrice < MiniTest::Unit::TestCase
 
